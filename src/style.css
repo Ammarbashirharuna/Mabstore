@@ -1,0 +1,89 @@
+body{
+    background: #fff;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+#navbarNav{
+    margin-left: 60%;
+}
+.navbar-brand{
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 5px;
+}
+.navbar-nav a{
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 400;
+   
+}
+.img-fluid{
+    margin-left: 4rem;
+    border-radius: 15px;
+    box-shadow: 0 0 50px #222;
+}
+.ad h1{
+    color: black;
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+.ad h2{
+    color: black;
+    font-size: 1em;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********** Large device only **********/
+@media (min-width:1200px){}
+
+/***********Medium device only **********/
+@media (min-width:992px) and (max-width:1199px){}
+
+
+
+/*************Small device only*********/
+@media(min-width:768px) and (max-width:991px){
+    #navbarNav{
+        margin-left: 25%;
+    }
+}
+
+/*************Extra small Device only************/
+@media (max-width:767px){
+    #navbarNav{
+        margin-left: 0;
+    }
+}
+
+
+/*******super extra small devices ****/
+@media(max-width:479px){}
